@@ -1,3 +1,12 @@
+## @frando/zod-prisma
+
+republished [zod-prisma](https://github.com/CarterGrimmeisen/zod-prisma) based on version 0.5.4 with the following PRs merged:
+* [#128: Add option to add js extensions to generated ts files](https://github.com/CarterGrimmeisen/zod-prisma/pull/128)
+
+Usage as outlined below. Replace `zod-prisma` with `@frando/zod-prisma`.
+
+---
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request

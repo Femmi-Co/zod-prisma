@@ -2,6 +2,7 @@
 
 republished [zod-prisma](https://github.com/CarterGrimmeisen/zod-prisma) based on version 0.5.4 with the following PRs merged:
 * [#128: Add option to add js extensions to generated ts files](https://github.com/CarterGrimmeisen/zod-prisma/pull/128)
+* [#134: Changed optional fields output to use nullable instead of nullish](https://github.com/CarterGrimmeisen/zod-prisma/pull/134)
 
 Usage as outlined below. Replace `zod-prisma` with `@frando/zod-prisma`.
 

@@ -242,9 +242,9 @@ export const populateModelFile = (
 export const generateBarrelFile = (models: DMMF.Model[], indexFile: SourceFile, config: Config) => {
 	models.forEach((model) =>
 		indexFile.addExportDeclaration({
-			moduleSpecifier: `./${model.name.toLowerCase()}${jsExt(config)}`
+			moduleSpecifier: `./${model.name.toLowerCase()}${jsExt(config)}`,
 		})
 	)
 }
 
-const jsExt = (config: Config) => config.includeJSExtension ? '.js' : ''
+const jsExt = (config: Config) => (config.includeJSExtension ? '.js' : '')
